@@ -1,5 +1,7 @@
 # 💫 About Me:
-Hi there! 👨‍💻 I’m a Computer Science student passionate about technology and innovation. 🚀<br>I specialize in web development 🌐 and I’m also an e-commerce entrepreneur, managing several online stores 🛒.<br>I’m constantly learning 📚, building 🛠️, and looking for new ways to bring ideas to life through code and creativity ✨.
+Hi there! 👨‍💻 I’m a Computer Science student passionate about technology and innovation. 🚀
+I'm developing my skills in software development 🛠️ and I'm also an e-commerce entrepreneur, managing several online stores 🛒.
+I'm constantly learning 📚, building 🧱, and looking for new ways to bring ideas to life through code and creativity ✨.
 
 
 ## 🌐 Socials:
