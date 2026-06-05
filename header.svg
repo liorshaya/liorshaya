@@ -1,0 +1,151 @@
+<svg width="820" height="230" viewBox="0 0 820 230" fill="none"
+     xmlns="http://www.w3.org/2000/svg" role="img"
+     aria-label="Lior Shaya — Full Stack Developer">
+
+  <defs>
+    <!-- Card background -->
+    <linearGradient id="cardBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a0e17"/>
+      <stop offset="1" stop-color="#0c1322"/>
+    </linearGradient>
+
+    <!-- Border glow -->
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#60a5fa" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0.55"/>
+    </linearGradient>
+
+    <!-- Animated flowing gradient for the name -->
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee">
+        <animate attributeName="stop-color"
+          values="#22d3ee;#60a5fa;#a78bfa;#22d3ee" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="0.5" stop-color="#60a5fa">
+        <animate attributeName="stop-color"
+          values="#60a5fa;#a78bfa;#22d3ee;#60a5fa" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#a78bfa">
+        <animate attributeName="stop-color"
+          values="#a78bfa;#22d3ee;#60a5fa;#a78bfa" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <!-- Accent bar gradient -->
+    <linearGradient id="barGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+
+    <!-- Soft corner glow -->
+    <radialGradient id="orb" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orb2" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#a78bfa" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Subtle dot texture -->
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#2a3a5c" fill-opacity="0.35"/>
+    </pattern>
+
+    <!-- Glow blur for the name -->
+    <filter id="glow" x="-20%" y="-60%" width="140%" height="220%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+
+    <!-- Reveal clip for the typed subtitle -->
+    <clipPath id="typeClip">
+      <rect x="94" y="144" height="30" width="0">
+        <animate attributeName="width" from="0" to="292"
+          begin="0.7s" dur="1.6s" fill="freeze"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="barClip">
+      <rect x="36" y="50" width="4" height="130" rx="2"/>
+    </clipPath>
+  </defs>
+
+  <!-- Card -->
+  <rect x="4" y="4" width="812" height="222" rx="18" fill="url(#cardBg)"/>
+  <rect x="4" y="4" width="812" height="222" rx="18" fill="url(#dots)"/>
+
+  <!-- Atmospheric glows -->
+  <circle cx="720" cy="36" r="150" fill="url(#orb)">
+    <animate attributeName="opacity" values="0.5;0.85;0.5" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="120" cy="220" r="130" fill="url(#orb2)">
+    <animate attributeName="opacity" values="0.7;0.4;0.7" dur="9s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Background code motif -->
+  <text x="660" y="180" font-family="ui-monospace,SFMono-Regular,Menlo,monospace"
+        font-size="120" font-weight="700" fill="#16223b" opacity="0.7">&lt;/&gt;</text>
+
+  <!-- Card border on top -->
+  <rect x="4.5" y="4.5" width="811" height="221" rx="17.5"
+        fill="none" stroke="url(#border)" stroke-width="1.5"/>
+
+  <!-- Animated accent bar -->
+  <rect x="36" y="50" width="4" height="130" rx="2" fill="url(#barGrad)"/>
+  <g clip-path="url(#barClip)">
+    <rect x="34" y="40" width="8" height="34" fill="#e0f2fe" opacity="0.7">
+      <animateTransform attributeName="transform" type="translate"
+        values="0,-40;0,150" dur="3s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Name with pulsing glow -->
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
+     font-weight="700">
+    <text x="70" y="112" font-size="58" fill="url(#nameGrad)" filter="url(#glow)">
+      Lior Shaya
+      <animate attributeName="opacity" values="0.4;0.7;0.4" dur="4s" repeatCount="indefinite"/>
+    </text>
+    <text x="70" y="112" font-size="58" fill="url(#nameGrad)">Lior Shaya</text>
+  </g>
+
+  <!-- Subtitle: $ prompt + typewriter -->
+  <text x="70" y="166" font-family="ui-monospace,SFMono-Regular,Menlo,monospace"
+        font-size="24" font-weight="600" fill="#22d3ee">$</text>
+  <g clip-path="url(#typeClip)">
+    <text x="94" y="166" font-family="ui-monospace,SFMono-Regular,Menlo,monospace"
+          font-size="24" font-weight="500" fill="#e2e8f0">Full Stack Developer</text>
+  </g>
+  <!-- Cursor -->
+  <rect y="147" width="11" height="24" fill="#22d3ee" x="94">
+    <animate attributeName="x" from="94" to="386" begin="0.7s" dur="1.6s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;0" dur="0.5s" begin="2.3s"
+      repeatCount="indefinite" calcMode="discrete"/>
+  </rect>
+
+  <!-- Stack line -->
+  <text x="70" y="200" font-family="ui-monospace,SFMono-Regular,Menlo,monospace"
+        font-size="15" fill="#5b6b85" opacity="0">
+    Spring Boot &#183; React &#183; Next.js &#183; TypeScript &#183; FastAPI
+    <animate attributeName="opacity" from="0" to="1" begin="2.4s" dur="0.7s" fill="freeze"/>
+  </text>
+
+  <!-- Floating dots -->
+  <circle cx="560" cy="60" r="2.5" fill="#38bdf8">
+    <animate attributeName="cy" values="60;48;60" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.2;0.8;0.2" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="620" cy="90" r="2" fill="#a78bfa">
+    <animate attributeName="cy" values="90;78;90" dur="6s" begin="1s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.15;0.7;0.15" dur="6s" begin="1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="745" cy="120" r="2.5" fill="#22d3ee">
+    <animate attributeName="cy" values="120;108;120" dur="4.5s" begin="0.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.2;0.75;0.2" dur="4.5s" begin="0.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="690" cy="150" r="2" fill="#60a5fa">
+    <animate attributeName="cy" values="150;140;150" dur="5.5s" begin="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.15;0.65;0.15" dur="5.5s" begin="2s" repeatCount="indefinite"/>
+  </circle>
+</svg>
