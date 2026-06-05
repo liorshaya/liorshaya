@@ -4,7 +4,7 @@
   </a>
 </p>
 
-## 💫 About Me
+<img height="34" alt="About Me" src="https://raw.githubusercontent.com/liorshaya/liorshaya/main/sec-about.svg">
 
 Hi there! 👨‍💻 I'm a Computer Science student passionate about technology and innovation. 🚀
 <br>I'm developing my skills in software development 🛠️ and I'm also an e-commerce entrepreneur, managing several online stores 🛒.
@@ -12,7 +12,7 @@ Hi there! 👨‍💻 I'm a Computer Science student passionate about technology
 
 <img src="https://raw.githubusercontent.com/liorshaya/liorshaya/main/divider.svg" width="820">
 
-## 🌐 Socials
+<img height="34" alt="Socials" src="https://raw.githubusercontent.com/liorshaya/liorshaya/main/sec-socials.svg">
 
 <p align="left">
   <a href="https://instagram.com/lior_shaya"><img height="44" alt="Instagram" src="https://raw.githubusercontent.com/liorshaya/liorshaya/main/social-instagram.svg"></a>
@@ -24,7 +24,7 @@ Hi there! 👨‍💻 I'm a Computer Science student passionate about technology
 
 <img src="https://raw.githubusercontent.com/liorshaya/liorshaya/main/divider.svg" width="820">
 
-## 🧰 Tech Stack
+<img height="34" alt="Tech Stack" src="https://raw.githubusercontent.com/liorshaya/liorshaya/main/sec-techstack-title.svg">
 
 <p align="center">
   <img alt="Tech Stack" src="https://raw.githubusercontent.com/liorshaya/liorshaya/main/techstack.svg" width="820">
@@ -32,7 +32,7 @@ Hi there! 👨‍💻 I'm a Computer Science student passionate about technology
 
 <img src="https://raw.githubusercontent.com/liorshaya/liorshaya/main/divider.svg" width="820">
 
-## 📊 GitHub Stats
+<img height="34" alt="GitHub Stats" src="https://raw.githubusercontent.com/liorshaya/liorshaya/main/sec-stats.svg">
 
 <p align="center">
   <img height="170" src="https://github-readme-stats.shion.dev/api?username=liorshaya&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0a0e17&title_color=22d3ee&text_color=e2e8f0&icon_color=a78bfa&ring_color=60a5fa">
