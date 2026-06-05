@@ -1,0 +1,57 @@
+<svg width="820" height="30" viewBox="0 0 820 30" fill="none"
+     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="divider">
+  <defs>
+    <linearGradient id="line" gradientUnits="userSpaceOnUse" x1="70" y1="15" x2="750" y2="15">
+      <stop offset="0"    stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="0.16" stop-color="#22d3ee" stop-opacity="0.75"/>
+      <stop offset="0.32" stop-color="#38bdf8" stop-opacity="1"/>
+      <stop offset="0.5"  stop-color="#60a5fa" stop-opacity="1"/>
+      <stop offset="0.68" stop-color="#a78bfa" stop-opacity="1"/>
+      <stop offset="0.84" stop-color="#a78bfa" stop-opacity="0.75"/>
+      <stop offset="1"    stop-color="#a78bfa" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="node" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#60a5fa" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#60a5fa" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="spark" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#e0f2fe" stop-opacity="1"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-20%" y="-400%" width="140%" height="900%">
+      <feGaussianBlur stdDeviation="2.5"/>
+    </filter>
+  </defs>
+
+  <!-- Glow underlay + crisp line -->
+  <line x1="70" y1="15" x2="750" y2="15" stroke="url(#line)" stroke-width="9" opacity="0.35" filter="url(#soft)"/>
+  <line x1="70" y1="15" x2="750" y2="15" stroke="url(#line)" stroke-width="3"/>
+
+  <!-- Outward-traveling sparks -->
+  <circle cy="15" r="5.5" fill="url(#spark)" cx="410">
+    <animate attributeName="cx" values="410;120" dur="3.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.12;1" dur="3.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cy="15" r="5.5" fill="url(#spark)" cx="410">
+    <animate attributeName="cx" values="410;700" dur="3.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.12;1" dur="3.2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Flanking diamonds -->
+  <path d="M338 15 L344 9 L350 15 L344 21 Z" fill="#22d3ee" fill-opacity="0.9"/>
+  <path d="M470 15 L476 9 L482 15 L476 21 Z" fill="#a78bfa" fill-opacity="0.9"/>
+
+  <!-- Center node halo (pulsing) -->
+  <circle cx="410" cy="15" r="17" fill="url(#halo)">
+    <animate attributeName="opacity" values="0.4;0.85;0.4" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="14;18;14" dur="3s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Center diamond -->
+  <path d="M410 3 L421 15 L410 27 L399 15 Z" fill="url(#node)"/>
+  <path d="M410 8 L416 15 L410 22 L404 15 Z" fill="#e0f2fe" fill-opacity="0.6"/>
+</svg>

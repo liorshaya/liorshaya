@@ -1,0 +1,83 @@
+<svg width="820" height="340" viewBox="0 0 820 340" fill="none"
+     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Tech Stack">
+
+  <defs>
+    <linearGradient id="cardBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a0e17"/>
+      <stop offset="1" stop-color="#0c1322"/>
+    </linearGradient>
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.5"/>
+      <stop offset="0.5" stop-color="#60a5fa" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0.5"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orb2" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#a78bfa" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#2a3a5c" fill-opacity="0.35"/>
+    </pattern>
+  </defs>
+
+  <!-- Card -->
+  <rect x="4" y="4" width="812" height="332" rx="18" fill="url(#cardBg)"/>
+  <rect x="4" y="4" width="812" height="332" rx="18" fill="url(#dots)"/>
+  <circle cx="760" cy="20" r="150" fill="url(#orb)">
+    <animate attributeName="opacity" values="0.5;0.85;0.5" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="60" cy="320" r="120" fill="url(#orb2)">
+    <animate attributeName="opacity" values="0.7;0.4;0.7" dur="9s" repeatCount="indefinite"/>
+  </circle>
+  <rect x="4.5" y="4.5" width="811" height="331" rx="17.5"
+        fill="none" stroke="url(#border)" stroke-width="1.5"/>
+
+  <!-- Row: Languages -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.15s" dur="0.5s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="-12 0" to="0 0" begin="0.15s" dur="0.5s" fill="freeze"/>
+    <rect x="40" y="46" width="4" height="28" rx="2" fill="#22d3ee"/>
+    <text x="58" y="68" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" font-weight="700" letter-spacing="1.5" fill="#22d3ee">LANGUAGES</text>
+    <text x="200" y="68" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" fill="#cbd5e1">Java<tspan fill="#22d3ee"> · </tspan>TypeScript<tspan fill="#22d3ee"> · </tspan>JavaScript<tspan fill="#22d3ee"> · </tspan>Python<tspan fill="#22d3ee"> · </tspan>HTML5</text>
+  </g>
+
+  <!-- Row: Backend -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.30s" dur="0.5s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="-12 0" to="0 0" begin="0.30s" dur="0.5s" fill="freeze"/>
+    <rect x="40" y="102" width="4" height="28" rx="2" fill="#60a5fa"/>
+    <text x="58" y="124" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" font-weight="700" letter-spacing="1.5" fill="#60a5fa">BACKEND</text>
+    <text x="200" y="124" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" fill="#cbd5e1">Spring Boot<tspan fill="#60a5fa"> · </tspan>FastAPI<tspan fill="#60a5fa"> · </tspan>Node.js<tspan fill="#60a5fa"> · </tspan>MongoDB<tspan fill="#60a5fa"> · </tspan>MySQL<tspan fill="#60a5fa"> · </tspan>Redis</text>
+  </g>
+
+  <!-- Row: Frontend -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.45s" dur="0.5s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="-12 0" to="0 0" begin="0.45s" dur="0.5s" fill="freeze"/>
+    <rect x="40" y="158" width="4" height="28" rx="2" fill="#a78bfa"/>
+    <text x="58" y="180" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" font-weight="700" letter-spacing="1.5" fill="#a78bfa">FRONTEND</text>
+    <text x="200" y="180" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" fill="#cbd5e1">React<tspan fill="#a78bfa"> · </tspan>Next.js<tspan fill="#a78bfa"> · </tspan>Vite<tspan fill="#a78bfa"> · </tspan>React Native<tspan fill="#a78bfa"> · </tspan>React Router</text>
+  </g>
+
+  <!-- Row: Tools -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.60s" dur="0.5s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="-12 0" to="0 0" begin="0.60s" dur="0.5s" fill="freeze"/>
+    <rect x="40" y="214" width="4" height="28" rx="2" fill="#2dd4bf"/>
+    <text x="58" y="236" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" font-weight="700" letter-spacing="1.5" fill="#2dd4bf">TOOLS</text>
+    <text x="200" y="236" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" fill="#cbd5e1">Git<tspan fill="#2dd4bf"> · </tspan>Postman<tspan fill="#2dd4bf"> · </tspan>Vercel<tspan fill="#2dd4bf"> · </tspan>Render<tspan fill="#2dd4bf"> · </tspan>Supabase<tspan fill="#2dd4bf"> · </tspan>Notion</text>
+  </g>
+
+  <!-- Row: Design -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.75s" dur="0.5s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="-12 0" to="0 0" begin="0.75s" dur="0.5s" fill="freeze"/>
+    <rect x="40" y="270" width="4" height="28" rx="2" fill="#f472b6"/>
+    <text x="58" y="292" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" font-weight="700" letter-spacing="1.5" fill="#f472b6">DESIGN</text>
+    <text x="200" y="292" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" fill="#cbd5e1">Figma<tspan fill="#f472b6"> · </tspan>Photoshop<tspan fill="#f472b6"> · </tspan>Premiere<tspan fill="#f472b6"> · </tspan>Canva</text>
+  </g>
+</svg>

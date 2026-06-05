@@ -1,0 +1,28 @@
+<svg width="128" height="52" viewBox="0 0 128 52" fill="none"
+     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Email">
+  <defs>
+    <linearGradient id="cardBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a0e17"/><stop offset="1" stop-color="#0c1322"/>
+    </linearGradient>
+    <radialGradient id="mlGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ea4335" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ea4335" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="pill"><rect x="1" y="1" width="126" height="50" rx="14"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#pill)">
+    <rect x="1" y="1" width="126" height="50" rx="14" fill="url(#cardBg)"/>
+    <circle cx="31" cy="26" r="30" fill="url(#mlGlow)">
+      <animate attributeName="opacity" values="0.45;0.85;0.45" dur="4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <rect x="1" y="1" width="126" height="50" rx="14" fill="none" stroke="#ea4335" stroke-width="1.5"/>
+
+  <!-- Envelope icon -->
+  <rect x="16" y="16" width="30" height="20" rx="3" fill="none" stroke="#f06a5d" stroke-width="2"/>
+  <path d="M17 18 L31 29 L45 18" fill="none" stroke="#f06a5d" stroke-width="2" stroke-linejoin="round"/>
+
+  <text x="58" y="31" font-family="ui-monospace,SFMono-Regular,Menlo,monospace"
+        font-size="14" font-weight="600" fill="#e2e8f0">Email</text>
+</svg>
