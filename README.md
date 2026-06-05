@@ -1,3 +1,8 @@
+<p align="center">
+  <a href="https://liorshaya.com">
+    <img src="https://raw.githubusercontent.com/liorshaya/liorshaya/main/header.svg" alt="Lior Shaya — Full Stack Developer" width="820"/>
+  </a>
+</p>
 # 💫 About Me:
 Hi there! 👨‍💻 I’m a Computer Science student passionate about technology and innovation. 🚀<br>I'm developing my skills in software development 🛠️ and I'm also an e-commerce entrepreneur, managing several online stores 🛒.<br>I'm constantly learning 📚, building 🧱, and looking for new ways to bring ideas to life through code and creativity ✨.
 
