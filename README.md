@@ -6,9 +6,11 @@
 
 <img height="34" alt="About Me" src="https://raw.githubusercontent.com/liorshaya/liorshaya/main/sec-about.svg">
 
-Hi there! 👨‍💻 I'm a Computer Science student passionate about technology and innovation. 🚀
-<br>I'm developing my skills in software development 🛠️ and I'm also an e-commerce entrepreneur, managing several online stores 🛒.
-<br>I'm constantly learning 📚, building 🧱, and looking for new ways to bring ideas to life through code and creativity ✨.
+<p align="center">
+  Hi there! 👨‍💻 I'm a Computer Science student passionate about building great software. 🚀
+  <br>I'm also an e-commerce entrepreneur managing several online stores 🛒, and I'm constantly learning and creating.
+  <br>Always looking for new ways to bring ideas to life through code. ✨
+</p>
 
 <img src="https://raw.githubusercontent.com/liorshaya/liorshaya/main/divider.svg" width="820">
 
