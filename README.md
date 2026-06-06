@@ -11,6 +11,9 @@
   <br>I'm also an e-commerce entrepreneur managing several online stores 🛒, and I'm constantly learning and creating.
   <br>Always looking for new ways to bring ideas to life through code. ✨
 </p>
+<p align="center">
+  <a href="https://liorshaya.com"><img height="46" alt="My Portfolio" src="https://raw.githubusercontent.com/liorshaya/liorshaya/main/social-portfolio.svg"></a>
+</p>
 
 <img src="https://raw.githubusercontent.com/liorshaya/liorshaya/main/divider.svg" width="820">
 
